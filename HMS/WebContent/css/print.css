@@ -1,0 +1,377 @@
+input{
+font-size: 15px;
+}
+.container2{
+    width: 66%;
+    border: 1px solid gray;
+    margin: 0 auto;
+    background: #f7f7f7;
+    height: 960px;
+
+}
+.pres-header{
+        margin-bottom: 111px;
+}
+.head1{
+    float: left;
+}
+.head1 h4{
+    padding: 0;
+    margin: 0;
+    margin-left: 59px;
+}
+.head1 p{
+    padding: 0;
+    margin: 0;
+    margin-right: 75px;
+}
+.head1 h1{
+    padding: 0;
+    margin: 0;
+    width: 478px;
+    border: 1px solid;
+    margin-top: 15px;
+    text-align: center;
+}
+.pres-bottom{
+        border-top: 1px solid;
+}
+
+.head2{
+
+}
+.head2 p{
+    width: 33.3%;
+    float: left;
+        margin-left: 12px;
+}
+.head3 p{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+.head4 p{
+    float: right;
+    margin-right: 16px;
+}
+.press{
+    margin-top: 51px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    background: cornflowerblue;
+}
+.press h2{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.doctor{
+    margin-top: 19px;
+}
+.doc-name{
+    width: 50%;
+    float: left;
+}
+.doc-name label{
+    margin-left: 46px;
+
+}
+.doc-name input{
+     border: none;
+    padding: 4px 9px;
+    border-bottom: 1px dotted;
+    width: 237px;
+}
+.patient{}
+.any{
+    margin-top: 74px;
+    padding-top: 25px;
+    border-top: 1px solid #ececec;
+}
+.age1{
+    float: right;
+}
+.age{
+    float: left;
+}
+.age label{
+    margin-left: 44px;
+}
+.age input{
+    width:  542px;
+    border: none;
+    border-bottom: 1px dotted;
+    padding: 4px;
+
+}
+.age1 label{}
+.age1 input{
+    margin-right: 29px;
+     border: none;
+    border-bottom: 1px dotted;
+    padding: 4px;
+    width: 60px;
+}
+.address{
+    margin-top: 49px;
+}
+.address label{
+    margin-left: 43px;
+}
+.address input{
+    width: 733px;
+    padding: 4px;
+    border: none;
+    border-bottom: 1px dotted;
+}
+.date {
+    margin-top: 27px;
+}
+.date label{
+    margin-left: 43px;
+}
+.date input{
+    width: 300px;
+    padding: 4px;
+    border: none;
+    border-bottom: 1px dotted;
+}
+.rx{
+    border-top: 1px solid #ececec;
+    margin-top: 30px;
+}
+.rx img{
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+}
+.col1{
+    margin-top: 25px;
+}
+.col1 label{
+    margin-left: 145px;
+}
+.col1 input{
+    width: 400px;
+    padding: 4px;
+    border: none;
+    border-bottom: 1px dotted;
+}
+.col1 select{
+    margin-left: 32px;
+    padding: 5px 1px;
+    border: none;
+    background: white;
+    font-size: 14px;
+}
+.comment{
+    margin-top: 68px;
+}
+.comment label{
+    margin-left: 43px;
+}
+.comment input{
+    width: 719px;
+    border: none;
+    border-bottom: 1px dotted;
+    padding: 4px;
+}
+.signature{
+    margin-top: 28px;
+    float: right;
+}
+.signature label{
+    margin-left: 43px;
+}
+.signature input{
+    width: 219px;
+    border: none;
+    border-bottom: 1px dotted;
+    padding: 4px;
+    margin-right: 22px;
+}
+@media print{
+        /* Make the HR tag have 50 px spacing above and below */
+    input{
+    font-size: 15px;
+    }
+    .container2{
+    width: 100%;
+    border: 1px solid gray;
+    margin: 0 auto;
+    background: #f7f7f7;
+
+    }
+    .pres-header{
+            margin-bottom: 111px;
+    }
+    .head1{
+        float: left;
+    }
+    .head1 h4{
+        margin-left: 25px;
+    }
+    .head1 p{
+        padding: 0;
+        margin: 0;
+        margin-right: 40px;
+    }
+    .head1 h1{
+        width: 400px;
+        border: 1px solid;
+        margin-top: 15px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .pres-bottom{
+        border-top: 1px solid;
+    }
+
+    .head2{
+
+    }
+    .head2 p{
+        width: 33.3%;
+        float: left;
+            margin-left: 12px;
+    }
+    .head3 p{
+        width: 33.3%;
+        float: left;
+        text-align: center;
+    }
+    .head4 p{
+        float: right;
+        margin-right: 16px;
+    }
+    .press{
+    margin-top: 51px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    background: cornflowerblue;
+    }
+    .press h2{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .doctor{
+    margin-top: 19px;
+    }
+    .doc-name{
+        width: 50%;
+        float: left;
+    }
+    .doc-name label{
+        margin-left: 26px;
+
+    }
+    .doc-name input{
+         border: none;
+        padding: 4px 9px;
+        width: 180px;
+    }
+    .patient{}
+    .any{
+        margin-top: 74px;
+        padding-top: 25px;
+        border-top: 1px solid #ececec;
+    }
+    .age1{
+        float: right;
+    }
+    .age{
+        float: left;
+    }
+    .age label{
+        margin-left: 26px;
+    }
+    .age input{
+        width:  342px;
+        border: none;
+        padding: 4px;
+
+    }
+    .age1 label{}
+    .age1 input{
+        margin-right: 29px;
+         border: none;
+        padding: 4px;
+        width: 60px;
+    }
+    .address{
+        margin-top: 49px;
+    }
+    .address label{
+        margin-left: 26px;
+    }
+    .address input{
+        width: 533px;
+        padding: 4px;
+        border: none;
+    }
+    .date {
+        margin-top: 27px;
+    }
+    .date label{
+        margin-left: 43px;
+    }
+    .date input{
+        width: 300px;
+        padding: 4px;
+        border: none;
+    }
+    .rx{
+    border-top: 1px solid #ececec;
+    margin-top: 20px;
+    }
+    .rx img{
+        width: 60px;
+        height: 60px;
+        margin-left: 30px;
+    }
+    .col1{
+        margin-top: 10px;
+    }
+    .col1 label{
+        margin-left: 100px;
+    }
+    .col1 input{
+        width: 280px;
+        padding: 4px;
+        border: none;
+    }
+    .col1 select{
+        margin-left: 32px;
+        padding: 5px 1px;
+        border: none;
+        background: white;
+        font-size: 14px;
+    }
+    .comment{
+    margin-top: 68px;
+    }
+    .comment label{
+        margin-left: 43px;
+    }
+    .comment input{
+        width: 550px;
+        border: none;
+        padding: 4px;
+    }
+    .signature{
+    margin-top: 68px;
+    float: right;
+    }
+    .signature label{
+        margin-left: 43px;
+    }
+    .signature input{
+        width: 219px;
+        border: none;
+        padding: 4px;
+        margin-right: 22px;
+    }
+         
+}

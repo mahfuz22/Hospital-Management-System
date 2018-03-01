@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+#section-top{
+	background: url(../images/doctor1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.overlay{
+	background-color: rgba(0,0,0,.3);
+}
+.header{
+	background-color: rgba(0,0,0,.9);
+	width: 100%;
+	background-attachment: fixed;
+}
+.header img{
+	margin-left: 410px;
+	height: 50%;
+}
+.header a{
+	float:right;
+	margin:10px;
+	text-decoration:none;
+	color:darkgray;
+	font-size:12px;
+	padding:10px 20px;
+	border: 1px solid black;
+	border-radius: 7%;
+}
+.header a:hover{
+	background-color:black;
+	
+}
+
+.content{
+	padding-top: 200px;
+	padding-bottom: 400px;
+	width: 450px;
+	margin:0 auto;
+}
+.content select{
+	margin-bottom: 10px;
+	width: 447px;
+	padding: 7px;
+	font-style: italic;
+	border: none;
+	border-radius: 2px;
+	background-color: rgba(255, 255, 255, .8);
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+.content input{
+	margin:10px 0;
+	padding: 10px 10px;
+	width: 430px;
+	font-style: italic;
+	border: none;
+	border-radius: 2px;
+	background-color: rgba(255, 255, 255, .8);
+}
+.content a{
+	border: none;
+	float: right;
+	padding: 7px 30px;
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, .8);
+	color: black;
+	margin-top: 14px;
+	border-radius: 5px;
+	transition: .2s;
+}
+.content a:hover{
+	background-color: rgba(0,0,0,.8);
+	color:#fff;
+}
+
+.content p{
+	color:red;
+	margin: 10px;
+}
+
+.social-icon{
+	text-align: center;
+	background-color: rgba(0,0,0,.9);
+	padding: 3px 0;
+	
+}
+
+.social-icon i{
+	color: #fff;
+	width: 44px;
+	height: 44px;
+	line-height: 44px;
+	border-radius: 50%;
+}
+.fa-facebook{
+	background-color: #4267B2;
+}
+.fa-twitter{
+	background-color: #33bdfd;
+}
+.fa-linkedin{
+	background-color: #0b2b5c;
+}
+.fa-google-plus{
+	background-color: #c8443a;
+}
+
+
+
+/*this css part for adminPanel.jsp*/
+
+
